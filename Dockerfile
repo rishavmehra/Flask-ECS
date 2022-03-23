@@ -25,9 +25,9 @@ ENV AWS_SECRET_ACCESS_KEY $AWS_SECRET_ACCESS_KEY
 ENV AWS_DEFAULT_REGION $AWS_DEFAULT_REGION
 
 # Avoid cache purge by adding requirements first
-ADD ./requirements.txt ./requirements.txt
+ADD ./requirement.txt ./requirement.txt
 
-RUN pip install --no-cache-dir -r ./requirements.txt --user
+RUN pip install --no-cache-dir -r ./requirement.txt --user
 
 # Add the rest of the files
 COPY . /Flask-ECS
