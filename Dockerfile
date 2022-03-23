@@ -35,4 +35,4 @@ COPY . /Flask-ECS
 WORKDIR /Flask-ECS
 
 # start web server
-CMD ["gunicorn", "-b", "0.0.0.0:5000", "Flask-ECS:Flask-ECS", "--workers=5"]
+CMD ["gunicorn", "-b", "0.0.0.0:5000", "Flask-ECS:Flask-ECS", "--workers=8"]
