@@ -2,7 +2,7 @@
 
 ![Full Project](image.png)
 
-Tool and Techlogies used:
+Tool and Technologies used:
 - Flask
 - GitHub Repo
 - GitHub Actions
