@@ -43,5 +43,5 @@ Setup a workflow which would deploy the given ECR image to ECS on EC2 instance
 ##### ***Result after all Stage running successfully***
 ![End Result](result.png)
 
-For Live Demo Click on it [50.17.179.189:5000](http://50.17.179.189:5000) or [http://ecs-loadbalancer-712743308.us-east-1.elb.amazonaws.com/](http://ecs-loadbalancer-712743308.us-east-1.elb.amazonaws.com/)</br>
+For Live Demo Click on it: [http://ecs-loadbalancer-712743308.us-east-1.elb.amazonaws.com/](http://ecs-loadbalancer-712743308.us-east-1.elb.amazonaws.com/)</br>
 Note : Link will be expire soon
