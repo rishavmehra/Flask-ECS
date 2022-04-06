@@ -2,7 +2,7 @@ FROM python:3.9-alpine
 WORKDIR /Flask-ECS
 USER root
 EXPOSE 5000
-ENV  MSG="Hey Opslyft I'm Rishav ;)"
+ENV  MSG="hey world!"
 COPY . .
 RUN pip3 install -r requirement.txt
 
